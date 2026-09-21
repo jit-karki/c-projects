@@ -3,7 +3,7 @@ int main(){
     char n[50],g;
     int a,c;
     printf("enter your name: ");
-    scanf("%[^\n]s",n);
+    scanf("[^\n]s",n);
 
     printf("enter your age: ");
     scanf("%d",&a);
